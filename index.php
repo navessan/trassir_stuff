@@ -107,9 +107,9 @@ function client_trassir_get_data($api, $path, $session_key, $dump_result=0)
 	echo "session_key=".$session_key."<br>\n";
 
 	echo '<a href="?dumpcams">dumpcams</a><br>';
-	echo '<a href="?channels">channels</a><br>';
-	echo '<a href="?archive">archive</a><br>';
-	echo '<a href="?browse=/settings/">settings</a><br>';	
+	echo '<a href="?channels">channels stats</a><br>';
+	echo '<a href="?archive">archive stats</a><br>';
+	echo '<a href="?browse=/settings/">settings browse</a><br>';	
 
 	//-----------------------------------------------
 	if(isset($_REQUEST['health'])){
